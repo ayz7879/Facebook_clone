@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Facebook div */
+.facebook{
+    height: 707px;
+    width: 1423px;
+    display: flex;
+    /* position: fixed; */
+    background-color: #EDEFF1;
+}
+/* end */
+
+/* --------------------------navbar design start ------------------------*/
+.navbar{
+    height: 60px;
+    width: 1436px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    /* top: 0px; */
+    border-bottom: 2px solid rgb(209 209 209);
+    /* background-color: rebeccapurple; */
+}
+
+/* left nav */
+.navbar .left_nav{
+    height: 60px;
+    width: 408px;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.left_nav div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 16px;
+}
+.left_nav .fbicon{
+    font-size: 46px;
+    color: #3b5998;
+    border-radius: 100%;
+}
+.left_nav input{
+    width: 296px;
+    height: 41px;
+    border-radius: 50px;
+    font-size: 17.5px;
+    /* border: 0.5px solid rgb(209, 209, 209); */
+    border: 0.5px solid transparent;
+    background-color: rgb(209 209 209 / 39%);
+}
+/* end */
+
+/* middle nav */
+.navbar .middle_nav{
+    height: 60px;
+    width: 639px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: green; */
+}
+.middle_nav .fmicon{
+    font-size: 25px;
+    position: relative;
+    left: -28px;
+
+}
+.middle_nav .fmicon:hover{
+    color: #3b5998;
+}
+/* end */
+
+/* right nav */
+.navbar .right_nav{
+    height: 60px;
+    width: 389px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: yellow; */
+}
+.right_nav .first_div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.right_nav .first_div img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+.right_nav .first_div span{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.right_nav .second_div{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.second_div .fricon{
+    background-color: rgb(209 209 209);
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 23px;
+}
+.second_div .fricon:hover{
+    color: #3b5998;
+}
+/* end */
+/* --------------------------navbar design end ------------------------*/
+
+
+/* --------------------------left bar design start ------------------------*/
+.left_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 707px;
+    width: 408px;
+    background-color: #EDEFF1;
+}
+/* top content of left bar */
+.left_bar .top{
+    display: flex;
+    flex-direction: column;
+    height: 353.5px;
+    width: 345px;
+    margin-right: 73px;
+    margin-left: 49px;
+    border-bottom: 2px solid rgb(209 209 209);
+    /* background-color: yellow; */
+    gap: 20px;
+}
+.left_bar .top .top_content{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    font-size: 20px;
+
+}
+.left_bar .top .top_content div{
+    position: relative;
+    top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_bar .top .top_content img{
+    height: 41px;
+    width: 39px;
+    border-radius: 100%;
+}
+.left_bar .top .top_content i{
+    font-size: 27px;
+    width: 33px;
+}
+.left_bar .top .top_content span{
+    font-weight: bolder;
+    padding-left: 20px;
+    /* letter-spacing: 1px; */
+}
+.top .search-btn{
+    margin-top: 25px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.top .search-btn button{
+    height: 39px;
+    width: 343px;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 19px;
+    border: 1px solid transparent;
+    background-color: rgb(209 209 209);
+}
+/* end */
+
+/* bottom content of left bar */
+.left_bar .bottom{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 403.5px;
+    width: 345px;
+    margin-right: 73px;
+    margin-left: 49px;
+    /* background-color: yellow; */
+}
+.left_bar .bottom_content{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.left_bar .bottom_content .text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 18px;
+    align-items: center;
+    color: rgb(101 101 101);
+}
+.left_bar .content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.left_bar .content div{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+.left_bar .content img{
+    height: 37px;
+    width: 39px;
+    border-radius: 10px;
+    margin-right: 11px;
+}
+.left_bar .content span{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.left_bar .see_btn button{
+    height: 39px;
+    width: 343px;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 19px;
+    border: 1px solid transparent;
+    background-color: rgb(209 209 209);
+
+}
+/* end */
+/* --------------------------left bar design end ------------------------*/
+
+
+
+/* --------------------------middle bar design start ------------------------*/
+.middle_bar{
+    height: 707px;
+    width: 639px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #3b5998; */
+}
+/* top content of middle bar */
+.middle_bar .top_content{
+    height: 237px;
+    width: 589px;
+    display: flex;
+    background-color: #EDEFF1;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle_bar .stories{
+    position: relative;
+}
+.middle_bar .stories .inside_img{
+    position: absolute;
+    top: 17px;
+    left: 17px;
+}
+.middle_bar .stories .img-1{
+    height: 200px;
+    width: 122px;
+    border-radius: 10px;
+}
+.middle_bar .stories .img-2{
+    height: 42px;
+    width: 42px;
+    background: black;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.middle_bar .stories div{
+    position: absolute;
+    bottom: 10px;
+    left: 17px;
+}
+.middle_bar .stories div h4{
+    color: #ffffffdb;
+    font-size: 17px;
+}
+/* end */
+
+/* middle content of middle bar */
+.middle_bar .middle_content{
+    height: 136px;
+    width: 589px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: white;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.middle_content .top_bar{
+    height: 68px;
+    width: 561px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(209 209 209);
+    /* background-color: green; */
+}
+.middle_content .top_bar img{
+    height: 52px;
+    width: 50px;
+    border-radius: 100%;
+}
+.middle_content .top_bar input{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 37px;
+    height: 44px;
+    width: 475px;
+    padding-left: 24px;
+    border: 0.5px solid transparent;
+    background-color: rgb(209 209 209 / 39%);
+}
+.middle_content .bottom_bar{
+    height: 68px;
+    width: 561px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: green; */
+}
+.bottom_bar div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.bottom_bar div i{
+    font-size: 27px;
+}
+.bottom_bar div span{
+    font-weight: bolder;
+    font-size: 19px;
+
+}
+/* end */
+
+/* Bottom content of middle bar */
+.middle_bar .bottom_content{
+    height: 317px;
+    width: 589px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 17px;
+    align-items: center;
+}
+.bottom_content .top{
+    height: 100px;
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom_content .top .upper_cont{
+    height: 64px;
+    width: 557px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+
+}
+.bottom_content .top .upper_cont img{
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+
+}
+.bottom_content .top .upper_cont .side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* end */
+
+/* --------------------------middle bar design end ------------------------*/
+
+
+
+/* --------------------------right bar design start ------------------------*/
+.right_bar{
+    height: 707px;
+    width: 417px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    /* background-color: green; */
+}
+.right_bar .top{
+    height: 475px;
+    width: 392px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+.right_bar .top .top_cont{
+    height: 100px;
+    width: 355px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 2px solid rgb(209 209 209);
+}
+
+.right_bar .mid_cont{
+    height: 331px;
+    width: 355px;
+    display: flex;
+    margin-top: 15px;
+    gap: 14px;
+    flex-direction: column;
+    /* background-color: green; */
+}
+.mid_cont .row_cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row_cont div i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: rgb(209 209 209);
+    font-size: 22px;
+    height: 25px;
+    width: 25px;
+}
+.botm_cont{
+    height: 50px;
+    width: 355px;
+}
+
+.right_bar .bottom{
+    height: 230px;
+    width: 374px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 26px;
+    gap: 11px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.bottom .bot_cont{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.bottom .bot_cont img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+.plus_icon{
+    position: absolute;
+    bottom: 13px;
+    right: 19px;
+}
+.plus_icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 10px;
+    padding: 11px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    border: 10px solid white;
+    font-size: 20px;
+}
+
+
+/* --------------------------right bar design end ------------------------*/
